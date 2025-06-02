@@ -39,7 +39,6 @@ class SoundManager {
         }
 
         do {
-            // 🔉 Duck BGM
             bgmPlayer?.setVolume(originalBGMVolume * 0.4, fadeDuration: 0.1)
 
             sfxPlayer = try AVAudioPlayer(contentsOf: url)
@@ -47,7 +46,6 @@ class SoundManager {
             sfxPlayer?.prepareToPlay()
             sfxPlayer?.play()
 
-            // 🔊 Restore BGM after 1.5 seconds
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                 self.bgmPlayer?.setVolume(self.originalBGMVolume, fadeDuration: 0.2)
             }
