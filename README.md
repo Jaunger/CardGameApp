@@ -67,9 +67,12 @@ A SwiftUI-based iOS game where the player competes against the PC using a deck o
 
 ## 🎥 Demo Video
 
-> 📹 Drop a screen recording of gameplay here
 
-[![Watch the demo](https://img.youtube.com/vi/your-video-id-here/0.jpg)](https://www.youtube.com/watch?v=your-video-id-here)
+![Watch the demo]([https://www.youtube.com/watch?v=your-video-id-here](https://github.com/user-attachments/assets/0dfe49ac-6d95-4ac5-a81f-d5dd55189e3b]))
+
+
+
+
 
 ---
 
