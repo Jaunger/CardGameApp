@@ -18,26 +18,35 @@ struct ResultsView: View {
     }
 
     var body: some View {
-        VStack(spacing: 24) {
-            Text("🏆 Winner: \(winner)")
-                .font(.largeTitle)
-                .bold()
+        GeometryReader { geometry in
+            let isPortrait = geometry.size.height > geometry.size.width
+            let horizontalPadding: CGFloat = isPortrait ? 24 : 64
+            let verticalSpacing: CGFloat = isPortrait ? 24 : 16
 
-            Text("\(playerName): \(playerScore)")
-            Text("PC: \(computerScore)")
+            VStack(spacing: verticalSpacing) {
+                Text("🏆 Winner: \(winner)")
+                    .font(.largeTitle)
+                    .bold()
 
-            Spacer()
+                Text("\(playerName): \(playerScore)")
+                Text("PC: \(computerScore)")
 
-            Button("Back to Main Menu") {
-                path = []
+                Spacer()
+
+                Button("Back to Main Menu") {
+                    path = []
+                }
+                .padding()
+                .frame(width: 200)
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(12)
             }
-            .padding()
-            .frame(width: 200)
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(12)
+            .padding(.horizontal, horizontalPadding)
+            .padding(.top, isPortrait ? 48 : 24)
+            .padding(.bottom, 32)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .padding()
         .navigationBarBackButtonHidden(true)
     }
 }
