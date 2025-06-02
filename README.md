@@ -54,22 +54,21 @@ A SwiftUI-based iOS game where the player competes against the PC using a deck o
 - Responsive layout using `GeometryReader`
 
 ---
-
 ## 🖼️ Screenshots
-
-> 🧩 Insert your screenshots here
 
 | Portrait | Landscape |
 |----------|-----------|
-| ![Portrait Screenshot](screenshots/portrait.png) | ![Landscape Screenshot](screenshots/landscape.png) |
+| <img src="https://github.com/user-attachments/assets/e83ae827-faed-44c9-a880-2fc32d42e9a8" width="200"/> | <img src="https://github.com/user-attachments/assets/9744051b-23b1-4889-9296-ccffd286a32d" width="300"/> |
+| <img src="https://github.com/user-attachments/assets/7d0abca1-0880-429a-b46f-b1961a1cc5a4" width="200"/> | <img src="https://github.com/user-attachments/assets/7976f258-8601-488d-9acc-5b22a0495b35" width="300"/> |
+| <img src="https://github.com/user-attachments/assets/8e6245c1-3a8d-4e21-a7c9-94b8f0ca226f" width="200"/> |  <img src="https://github.com/user-attachments/assets/e81a2325-147f-4e10-b5ee-53d0e609434a" width="300"/> |
 
 ---
 
 ## 🎥 Demo Video
 
-
-![Watch the demo]([https://www.youtube.com/watch?v=your-video-id-here](https://github.com/user-attachments/assets/0dfe49ac-6d95-4ac5-a81f-d5dd55189e3b]))
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0dfe49ac-6d95-4ac5-a81f-d5dd55189e3b" width="600" alt="Watch the demo"/>
+</p>
 
 
 
@@ -87,7 +86,7 @@ A SwiftUI-based iOS game where the player competes against the PC using a deck o
 ## 📦 App Icon
 
 <div align="center">
-  <img src="Assets/AppIcon.png" width="120" alt="App Icon"/>
+  <img src="https://github.com/user-attachments/assets/a765abe3-3f77-4a89-ba86-1ef5c380c78b" width="120" alt="App Icon"/>
 </div>
 
 ---
